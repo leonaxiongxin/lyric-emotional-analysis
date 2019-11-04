@@ -6,8 +6,8 @@ from sklearn.metrics import precision_recall_curve
 from sklearn.metrics import classification_report
   
 #读取
-data = np.loadtxt('D:\学习文档\一些课件\web智能技术\大作业\data.txt',dtype=np.int, delimiter='\t')
-target = np.loadtxt("D:\学习文档\一些课件\web智能技术\大作业\comment.txt", dtype=np.int,delimiter='\n')
+data = np.loadtxt('../data/data.txt',dtype=np.int, delimiter='\t')
+target = np.loadtxt("../data/comment.txt", dtype=np.int,delimiter='\n')
 x = data
 y = target
   
